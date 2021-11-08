@@ -1,7 +1,7 @@
 def is_monotonic(nums):
-    vozr = sorted(nums)
-    ubiv = sorted(nums, reverse = True)
-    if nums != vozr and nums != ubiv:
+    a=sorted(nums)
+    b=sorted(nums,reverse=True)
+    if nums !=a and nums !=b:
         return False
     else:
         return True
